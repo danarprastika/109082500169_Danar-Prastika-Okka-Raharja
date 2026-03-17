@@ -112,7 +112,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output Unguided 2C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2B.png)
+![Screenshot Output Unguided 2C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2C.png)
 
 ##### Penjelasan
 Program ini menghitung biaya kirim parsel dengan membagi berat ke satuan kg dan sisa gram. Jika total berat di atas 10 kg, sisa gram digratiskan. Namun, jika 10 kg atau kurang, sisa gram dikenakan biaya Rp5/gram (untuk sisa >= 500 gr) atau Rp15/gram (untuk sisa < 500 gr). Di akhir, program menampilkan rincian berat dan total biayanya.
