@@ -37,7 +37,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output Unguided 2A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2A.png)
+![Screenshot Output 2A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2A.png)
 
 ##### Penjelasan
 Program ini melakukan pergeseran nilai secara melingkar. Awalnya, tiga input string disimpan dalam variabel satu, dua, dan tiga. Untuk menukar isinya tanpa ada data yang hilang, nilai satu dipindahkan sementara ke variabel temp. Kemudian, posisi diisi secara berantai: satu mengambil nilai dua, dua mengambil nilai tiga, dan tiga mengambil nilai dari temp. Hasilnya, urutan input berubah dengan posisi pertama berpindah ke posisi paling akhir.
@@ -71,7 +71,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output Unguided 2B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2B.png)
+![Screenshot Output 2B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2B.png)
 
 ##### Penjelasan
 Program ini dirancang untuk memvalidasi urutan empat warna spesifik—merah, kuning, hijau, dan ungu—melalui lima kali tahapan input. Keberhasilan diukur dari konsistensi pengguna dalam memasukkan urutan yang tepat pada setiap percobaan. Jika seluruh rangkaian percobaan terpenuhi tanpa ada kesalahan, program akan memberikan nilai balik berupa boolean true, namun jika terdapat satu saja kesalahan, hasilnya adalah false.
@@ -112,7 +112,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output Unguided 2C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2C.png)
+![Screenshot Output 2C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week2/output/output-2C.png)
 
 ##### Penjelasan
 Program ini menghitung biaya kirim parsel dengan membagi berat ke satuan kg dan sisa gram. Jika total berat di atas 10 kg, sisa gram digratiskan. Namun, jika 10 kg atau kurang, sisa gram dikenakan biaya Rp5/gram (untuk sisa >= 500 gr) atau Rp15/gram (untuk sisa < 500 gr). Di akhir, program menampilkan rincian berat dan total biayanya.
