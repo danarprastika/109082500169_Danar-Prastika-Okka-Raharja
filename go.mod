@@ -1,3 +1,3 @@
-module praktikum-alpro
+module praktikum-alpro2
 
 go 1.25.5
