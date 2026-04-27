@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 2 - Review Algoritma dan Pemrograman 2</h1>
+# <h1 align="center">Laporan Praktikum Modul 9 - Review Algoritma dan Pemrograman 2</h1>
 <p align="center">Danar Prastika Okka Raharja - 109082500169</p>
 
 ## Unguided 
