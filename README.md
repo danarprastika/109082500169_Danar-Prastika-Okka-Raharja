@@ -3,4 +3,4 @@
 Nama : Danar Prastika Okka Raharja
 <br>NIM : 109082500169
 <br>Kelas : S1IF-13-03
-<br>Universitas Telkom Purwokerto
+<br>Universitas Telkom University Purwokerto
