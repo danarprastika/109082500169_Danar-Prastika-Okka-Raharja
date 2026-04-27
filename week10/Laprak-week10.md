@@ -136,4 +136,4 @@ func main() {
 ![Screenshot Output 10C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week10/output/3.png)
 
 ##### Penjelasan
-Program ini mendata berat balita menggunakan Array 100 elemen agar data tersimpan rapi. Lewat bantuan prosedur, sistem otomatis mencari berat badan terkecil dan terbesar tanpa perlu dicek satu per satu. Selain itu, fungsi rata-rata memudahkan petugas mengetahui kondisi kesehatan kelompok balita secara instan
+Program ini mendata berat balita menggunakan Array 100 elemen agar data tersimpan rapi. Lewat bantuan prosedur, sistem otomatis mencari berat badan terkecil dan terbesar tanpa perlu dicek satu per satu. Selain itu, fungsi rata-rata memudahkan petugas mengetahui kondisi kesehatan kelompok balita secara instan.
