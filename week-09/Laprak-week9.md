@@ -260,7 +260,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 9D](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week9/output/output4.png)
+![Screenshot Output 9D](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-09/output/output4.png)
 
 ##### Penjelasan
 Program ini dirancang untuk mengolah urutan karakter atau teks menggunakan struktur **Struct** agar data huruf dan jumlahnya tersimpan dalam satu paket yang rapi. Alurnya dimulai dengan mengambil input karakter satu per satu, di mana spasi akan diabaikan dan proses pengisian baru akan berhenti total saat sistem mendeteksi tanda titik sebagai batas akhir kalimat. Setelah teks terkumpul, program melakukan pengecekan **Palindrome** dengan cara membandingkan ujung depan dan ujung belakang secara simetris guna memastikan apakah urutannya tetap sama saat dibaca terbalik. Terakhir, sistem akan membalikkan seluruh urutan karakter tersebut dan menampilkannya di layar bersamaan dengan status validasi kebenaran palindromnya secara instan.
