@@ -54,7 +54,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 9A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week9/output/output1.png)
+![Screenshot Output 9A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-09/output/output1.png)
 
 ##### Penjelasan
 Program ini menggunakan Struct untuk membungkus data koordinat titik pusat dan radius lingkaran, lalu mengecek posisi suatu titik dengan membandingkan jarak kuadratnya. Alih-alih pakai rumus akar yang berat, kita cukup menghitung selisih koordinat $x$ dan $y$ yang dikuadratkan, lalu membandingkannya langsung dengan kuadrat jari-jari lingkaran. Kalau hasilnya lebih kecil atau sama, berarti titik tersebut sah berada di dalam area lingkaran. Logika ini dibuat efisien agar program bisa langsung menentukan apakah titik tersebut masuk ke Lingkaran 1, Lingkaran 2, keduanya, atau malah di luar keduanya sama sekali.
@@ -138,7 +138,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 9B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week9/output/output2.png)
+![Screenshot Output 9B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-09/output/output2.png)
 
 ##### Penjelasan
 Program ini berfungsi untuk mengelola kumpulan angka dalam Array statis dengan berbagai operasi logika yang sering dipakai sehari-hari. Awalnya, data dimasukkan satu per satu ke dalam wadah penyimpanan berkapasitas tetap, di mana setiap angka otomatis memiliki nomor urut atau indeks yang dimulai dari nol. Dari sini, kita bisa dengan mudah memfilter tampilan data, misalnya hanya mengambil angka yang posisinya ganjil, genap, atau kelipatan tertentu sesuai keinginan user. Selain itu, program punya fitur hapus elemen yang bekerja secara manual dengan cara menggeser angka-angka di sebelah kanan ke arah kiri untuk menutup celah kosong, lalu diakhiri dengan menghitung nilai rata-rata serta frekuensi munculnya angka tertentu untuk memberikan ringkasan statistik yang cepat.
@@ -190,7 +190,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 9C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week9/output/output3.png)
+![Screenshot Output 9C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-09/output/output3.png)
 
 ##### Penjelasan
 Program ini dirancang untuk mengolah urutan karakter atau teks menggunakan struktur Struct agar data huruf dan jumlahnya tersimpan dalam satu paket yang rapi. Alurnya dimulai dengan mengambil input karakter satu per satu, di mana spasi akan diabaikan dan proses pengisian baru akan berhenti total saat sistem mendeteksi tanda titik sebagai batas akhir kalimat. Setelah teks terkumpul, program melakukan pengecekan Palindrome dengan cara membandingkan ujung depan dan ujung belakang secara simetris guna memastikan apakah urutannya tetap sama saat dibaca terbalik. Terakhir, sistem akan membalikkan seluruh urutan karakter tersebut dan menampilkannya di layar bersamaan dengan status validasi kebenaran palindromnya secara instan.

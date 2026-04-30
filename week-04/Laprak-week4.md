@@ -52,7 +52,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 4A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week4/output/output-4A.png)
+![Screenshot Output 4A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-04/output/output-4A.png)
 
 ##### Penjelasan
 Program ini menggunakan sistem tiga "robot" kecil: robot factorial sebagai penyedia hitungan dasar, yang hasilnya kemudian dipakai oleh robot permutation dan combination untuk menentukan jawaban akhir. Karena memakai teknik pass by reference, kita cukup memberikan "kunci" atau alamat memori (dengan simbol * dan &) agar setiap prosedur bisa langsung mengisi hasilnya ke tempat yang sudah disiapkan. Cara ini membuat kode jadi lebih rapi dan efisien karena kita tidak perlu menulis ulang rumus yang sama berkali-kali.
@@ -113,7 +113,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 4B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week4/output/output-4B.png)
+![Screenshot Output 4B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-04/output/output-4B.png)
 
 ##### Penjelasan
 Program ini bertindak seperti juri yang dibantu robot hitungSkor untuk mendata peserta. Robot ini bertugas menghitung jumlah soal yang selesai tepat waktu dan total menitnya. Dengan teknik pass by reference, juri cukup memberikan "catatan" (alamat memori lewat * dan &) agar robot bisa langsung menulis hasilnya di sana. Di akhir, program membandingkan data semua orang untuk menentukan pemenang berdasarkan soal terbanyak atau waktu tercepat.

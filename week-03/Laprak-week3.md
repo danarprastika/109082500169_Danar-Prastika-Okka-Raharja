@@ -40,7 +40,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 3A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week3/output/output-3A.png)
+![Screenshot Output 3A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-03/output/output-3A.png)
 
 ##### Penjelasan
 Program ini mengimplementasikan konsep matematika diskrit menggunakan subprogram faktorial berbasis int64 untuk menghitung nilai permutasi melalui pembagian faktorial $n$ dengan $(n-r)$, serta menghitung kombinasi secara efisien dengan membagi hasil permutasi tersebut dengan faktorial $r$. Seluruh proses perhitungan dijalankan secara terstruktur dalam fungsi utama untuk menghasilkan keluaran yang akurat sesuai dengan spesifikasi format input-output yang diminta.
@@ -79,7 +79,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 3B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week3/output/output-3B.png)
+![Screenshot Output 3B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-03/output/output-3B.png)
 
 ##### Penjelasan
 Program ini mengimplementasikan konsep fungsi komposisi matematika melalui pendefinisian tiga subprogram modular yaitu f, g, dan h, yang kemudian diproses menggunakan teknik pemanggilan fungsi bersarang (nested function calls). Dengan struktur ini, nilai input dari pengguna akan diproses secara berurutan mulai dari fungsi yang berada di posisi paling dalam hingga fungsi terluar guna menghasilkan nilai keluaran yang presisi sesuai dengan aturan notasi komposisi yang diminta.
@@ -127,7 +127,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 3C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week3/output/output-3C.png)
+![Screenshot Output 3C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-03/output/output-3C.png)
 
 ##### Penjelasan
 Program ini mengimplementasikan logika geometri untuk menentukan posisi koordinat titik terhadap dua buah lingkaran menggunakan subprogram jarak yang menghitung jarak Euclidean serta fungsi didalam yang memvalidasi radius secara boolean. Dengan memanfaatkan struktur kontrol percabangan if-else, sistem dapat mengklasifikasikan secara akurat apakah titik tersebut berada di dalam salah satu lingkaran, di dalam cakupan kedua lingkaran sekaligus, atau justru berada di luar area keduanya sesuai dengan parameter input yang diberikan.

@@ -42,7 +42,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 10A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week10/output/1.png)
+![Screenshot Output 10A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-10/output/1.png)
 
 ##### Penjelasan
 Program ini mendata berat anak kelinci dengan menyimpan input ke dalam Array berkapasitas 1000. Melalui satu kali perulangan, sistem membandingkan setiap berat yang masuk untuk menentukan nilai terkecil dan terbesar secara otomatis.
@@ -88,7 +88,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 10B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week10/output/2.png)
+![Screenshot Output 10B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-10/output/2.png)
 
 ##### Penjelasan
 Program ini mendistribusikan ikan ke dalam wadah sesuai kapasitas menggunakan penyimpanan Array. Sistem menjumlahkan berat tiap ikan dan mencetak totalnya setiap kali wadah penuh atau data habis. Terakhir, program menghitung rata-rata beban dari semua wadah yang terpakai untuk memantau distribusi berat secara akurat.
@@ -133,7 +133,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 10C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week10/output/3.png)
+![Screenshot Output 10C](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-10/output/3.png)
 
 ##### Penjelasan
 Program ini mendata berat balita menggunakan Array 100 elemen agar data tersimpan rapi. Lewat bantuan prosedur, sistem otomatis mencari berat badan terkecil dan terbesar tanpa perlu dicek satu per satu. Selain itu, fungsi rata-rata memudahkan petugas mengetahui kondisi kesehatan kelompok balita secara instan.
