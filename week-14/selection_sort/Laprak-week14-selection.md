@@ -92,7 +92,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 14A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/output/dekat.png)
+![Screenshot Output 14A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/selection_sort/output/dekat.png)
 
 ##### Penjelasan
 Program ini mengurutkan nomor rumah secara membesar (ascending) dengan teknik Selection Sort, di mana setiap elemen diperbandingkan untuk mencari nilai terkecil (idx_min) yang kemudian ditukar (swap) ke posisi terdepan hingga seluruh daftar rumah urut.
@@ -154,7 +154,7 @@ func main() {
 ```
 
 ##### Output 
-![Screenshot Output 14B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/output/kerabat.png)
+![Screenshot Output 14B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/selection_sort/output/kerabat.png)
 
 ##### Penjelasan
 Program ini membagi data ke dalam dua array (ganjil dan genap), lalu mengurutkan data ganjil secara membesar (ascending) dan data genap secara mengecil (descending) menggunakan Selection Sort sebelum akhirnya mencetak kedua kelompok data tersebut secara berurutan dalam satu baris.
