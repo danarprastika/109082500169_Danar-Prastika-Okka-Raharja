@@ -95,7 +95,7 @@ func main() {
 ![Screenshot Output 14A](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/selection_sort/output/dekat.png)
 
 ##### Penjelasan
-Program ini mengurutkan nomor rumah secara membesar (ascending) dengan teknik Selection Sort, di mana setiap elemen diperbandingkan untuk mencari nilai terkecil (idx_min) yang kemudian ditukar (swap) ke posisi terdepan hingga seluruh daftar rumah urut.
+Program ini mengurutkan daftar nomor rumah secara membesar (ascending) menggunakan teknik Selection Sort, di mana ia mencari nilai terkecil (idx_min) dari sisa array dan menukarnya ke posisi awal melalui perulangan luar i=1 hingga m-1.
 
 ### 2. [Soal 14B]
 #### 2.go
@@ -157,4 +157,56 @@ func main() {
 ![Screenshot Output 14B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/selection_sort/output/kerabat.png)
 
 ##### Penjelasan
-Program ini membagi data ke dalam dua array (ganjil dan genap), lalu mengurutkan data ganjil secara membesar (ascending) dan data genap secara mengecil (descending) menggunakan Selection Sort sebelum akhirnya mencetak kedua kelompok data tersebut secara berurutan dalam satu baris.
+Program membagi data ke dua array, lalu mengurutkan kelompok ganjil secara membesar (ascending) dan genap secara mengecil (descending) menggunakan Selection Sort sebelum mencetaknya dalam satu baris.
+
+### 3. [Soal 14C]
+#### 3.go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var a [1000000]int
+	var n, data, i, j, temp int
+
+	n = 0
+	for {
+		fmt.Print("Input: ")
+		fmt.Scan(&data)
+		if data == -5313 {
+			break
+		} else if data == 0 {
+
+			// insertion sort
+			i = 1
+			for i <= n-1 {
+				j = i
+				temp = a[j]
+				for j > 0 && temp < a[j-1] {
+					a[j] = a[j-1]
+					j = j - 1
+				}
+				a[j] = temp
+				i = i + 1
+			}
+
+			if n%2 != 0 {
+				fmt.Println("Hasil:", a[n/2])
+			} else {
+				fmt.Println("Hasil:", (a[(n/2)-1]+a[n/2])/2)
+			}
+		} else {
+			a[n] = data
+			n = n + 1
+		}
+	}
+}
+```
+
+##### Output 
+![Screenshot Output 14B](https://github.com/danarprastika/109082500169_Danar-Prastika-Okka-Raharja/blob/main/week-14/selection_sort/output/median.png)
+
+##### Penjelasan
+Program menghitung median dari data yang terus diinputkan; saat angka 0 dimasukkan, program mengurutkan seluruh data menggunakan Insertion Sort (i=1 hingga n-1), lalu mencetak nilai tengah sesuai aturan ganjil-genap hingga berhenti di -5313.

@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-// Nama  : Danar Prastika Okka Raharja
-// NIM   : 109082500169
-// Kelas : S1IF-13-03
-
 const nMax int = 7919
 
 type Buku struct {
@@ -19,8 +15,10 @@ func main() {
 	var pustaka DaftarBuku
 	var n, r int
 
+	fmt.Print("Jumlah buku: ")
 	fmt.Scan(&n)
 	DaftarkanBuku(&pustaka, n)
+	fmt.Print("Rating yang dicari: ")
 	fmt.Scan(&r)
 
 	CetakTerfavorit(pustaka, n)
@@ -30,18 +28,15 @@ func main() {
 }
 
 func DaftarkanBuku(pustaka *DaftarBuku, n int) {
-	/* I.S. sejumlah n data buku telah siap para piranti masukan
-	   F.S. pustaka berisi sejumlah n data buku */
 	var i int = 0
 	for i < n {
+		fmt.Print("Input buku ke-", i+1, ": ")
 		fmt.Scan(&pustaka[i].id, &pustaka[i].judul, &pustaka[i].penulis, &pustaka[i].penerbit, &pustaka[i].eksemplar, &pustaka[i].tahun, &pustaka[i].rating)
 		i = i + 1
 	}
 }
 
 func CetakTerfavorit(pustaka DaftarBuku, n int) {
-	/* I.S. array pustaka berisi n buah data buku dan belum terurut
-	   F.S. Tampilan data buku terfavorit */
 	var max, idx_max, i int
 
 	if n > 0 {
@@ -79,8 +74,6 @@ func UrutBuku(pustaka *DaftarBuku, n int) {
 }
 
 func Cetak5Terbaru(pustaka DaftarBuku, n int) {
-	/* I.S. pustaka berisi n data buku yang sudah terurut
-	   F.S. Laporan 5 judul buku */
 	var i int = 0
 	if n < 5 {
 		for i < n {
@@ -96,12 +89,9 @@ func Cetak5Terbaru(pustaka DaftarBuku, n int) {
 }
 
 func CariBuku(pustaka DaftarBuku, n int, r int) {
-	/* I.S. pustaka berisi n data buku yang sudah terurut
-	   F.S. Laporan buku sesuai rating */
 	var kr, kn, med int
 	var found bool
 
-	// binary search persis dr modul 12
 	found = false
 	kr = 0
 	kn = n - 1

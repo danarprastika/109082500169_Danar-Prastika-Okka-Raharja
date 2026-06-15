@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-// Nama  : Danar Prastika Okka Raharja
-// NIM   : 109082500169
-// Kelas : S1IF-13-03
-
 func main() {
 	var a [1000]int
 	var n, data, i, j, temp, jarak int
@@ -13,6 +9,7 @@ func main() {
 
 	n = 0
 	for {
+		fmt.Print("Input: ")
 		fmt.Scan(&data)
 		if data < 0 {
 			break

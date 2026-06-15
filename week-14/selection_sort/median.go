@@ -2,16 +2,13 @@ package main
 
 import "fmt"
 
-// Nama  : Danar Prastika Okka Raharja
-// NIM   : 109082500169
-// Kelas : S1IF-13-03
-
 func main() {
 	var a [1000000]int
 	var n, data, i, j, temp int
 
 	n = 0
 	for {
+		fmt.Print("Input: ")
 		fmt.Scan(&data)
 		if data == -5313 {
 			break
@@ -31,9 +28,9 @@ func main() {
 			}
 
 			if n%2 != 0 {
-				fmt.Println(a[n/2])
+				fmt.Println("Hasil:", a[n/2])
 			} else {
-				fmt.Println((a[(n/2)-1] + a[n/2]) / 2)
+				fmt.Println("Hasil:", (a[(n/2)-1]+a[n/2])/2)
 			}
 		} else {
 			a[n] = data
